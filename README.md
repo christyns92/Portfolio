@@ -13,9 +13,8 @@ This site was built to be very user friendly and easy to navigate. When you clic
 ![Screenshot (96)](https://user-images.githubusercontent.com/81654878/123017544-6bab3380-d392-11eb-86ec-0ddaef3b1a42.png)
 
 ## End Result
+https://user-images.githubusercontent.com/81654878/125143745-3f591c00-e0e1-11eb-96b2-89619d07afea.mp4
 
-![Screenshot (97)](https://user-images.githubusercontent.com/81654878/123017769-e3795e00-d392-11eb-9880-d09ba6b941ea.png)
 
-![Screenshot (98)](https://user-images.githubusercontent.com/81654878/123017781-e83e1200-d392-11eb-908f-a1da17bece8a.png)
 
 
