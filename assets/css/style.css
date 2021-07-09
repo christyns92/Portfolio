@@ -1,153 +1,155 @@
-  
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-/* changing the background color to white*/
-body {
-    background-color: #ffff;
-}
-/* setting header characteristics such as font, color and padding size*/
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #303436;
-    color: #65e2dc;
-}
-
-/*setting background color behind text as well as text color and size*/
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-    background-color: #65e2dc;
-    color: #ffff;
-    padding: 10px;
-}
-
-/* adjusting setting to the header to give desginated text font, size and margin/padding values. */
-header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header div ul {
-    list-style-type: none;
-    text-align: right;
-    display: flex;
-}
-
-header div ul li {
-    display: left;
-    margin-left: 25px;
-    text-align: right;
-}
-/* Setting margin specifications as well as section size, color and adding border*/
-section {
-    display: flex;
-    margin-top: 3vh;
-    margin-left: 15vw;
-    margin-right: 5vw;
-}
-section h2 {
-    text-align: right;
-    font-size: 200%;  
-    color: #5c79a3;
+  * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
   }
-section p {
-    margin-left: 1vw;
-    padding-left: 2vw;
-    border-left: 2px solid #5c79a3;
-    line-height: 1.2;
-}
-
-
-
-a {
-    color: #65e2dc;    
-    text-decoration: underline;
-    
-}
-/* Specifying max with of embedded image */
-img {
-    max-width:99vw;
-    height:auto;
-
-}
-/* Creating left and right columns to display information /*
+  /* changing the background color to white*/
+  
+  body {
+      background-color: #ffff;
+  }
+  /* setting header characteristics such as font, color and padding size*/
+  
+  header {
+      padding: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-color: #303436;
+      color: #65e2dc;
+  }
+  /*setting background color behind text as well as text color and size*/
+  
+  header h1 {
+      display: inline-block;
+      font-size: 48px;
+      background-color: #65e2dc;
+      color: #ffff;
+      padding: 10px;
+  }
+  /* adjusting setting to the header to give desginated text font, size and margin/padding values. */
+  
+  header div {
+      padding-top: 15px;
+      margin-right: 20px;
+      float: right;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+  }
+  
+  header div ul {
+      list-style-type: none;
+      text-align: right;
+      display: flex;
+  }
+  
+  header div ul li {
+      display: left;
+      margin-left: 25px;
+      text-align: right;
+  }
+  /* Setting margin specifications as well as section size, color and adding border*/
+  
+  section {
+      display: flex;
+      margin-top: 3vh;
+      margin-left: 15vw;
+      margin-right: 5vw;
+  }
+  
+  section h2 {
+      text-align: right;
+      font-size: 200%;
+      color: #5c79a3;
+  }
+  
+  section p {
+      margin-left: 1vw;
+      padding-left: 2vw;
+      border-left: 2px solid #5c79a3;
+      line-height: 1.2;
+  }
+  
+  a {
+      color: #65e2dc;
+      text-decoration: underline;
+  }
+  /* Specifying max with of embedded image */
+  
+  img {
+      max-width: 99vw;
+      height: auto;
+  }
+  /* Creating left and right columns to display information /*
 .column {
     float: left;
     /* text-align: right; */
-    text-size-adjust: 25px;
-    background-color: #ffff;
-    margin-right: 5vw;
+  
+  .column {
+      float: left;
+      text-align: right;
+      text-size-adjust: 25px;
+      background-color: #ffff;
+      margin-right: 5vw;
   }
   
   .left {
-    width: 20vw;
-    background-color: #ffff;
-    display: block;
+      width: 20vw;
+      background-color: #ffff;
+      display: block;
   }
   
   .column-right {
-    float: left;
-    
-  }
-
-  #banner {
-      width: 100vw !important;
-
+      float: left;
   }
   
-/* Inserting placeholder images and assigning setting. Will eventually be replaced with actual projects. */
+  #banner {
+      width: 100vw !important;
+  }
+  /* Inserting placeholder images and assigning setting. Will eventually be replaced with actual projects. */
+  
   .cards {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
   }
-
+  
   .project-card {
       display: flex;
       margin: 2vh;
       width: 48%;
   }
-
+  
   .project-card img {
       flex-shrink: 0;
       max-width: 100%;
       width: 100%;
       max-height: 100%;
   }
- 
-.main img {
-    display: block; 
-    margin-left: -4.5vw;
-    padding-left: 10vw;
-    border-left: 2px solid #5c79a3;
-    line-height: 1.2; 
-}
-/* Setting location of contact section and providing way to contact */
-.contact h2 {
-    text-align: right;
-    font-size: 200%;  
-    color: #5c79a3;
-}
-
-.contact ul li{
-    display: inline-flex;
-    line-height: 1.2;
-    margin-left: 1vw;
-    padding-left: 2vw;
-    border-left: 2px solid #5c79a3;
- 
-
-}
-
-.resume h2{
-    text-align: right;
-    font-size: 200%;  
-    color: #5c79a3;
-}
+  
+  .main img {
+      display: block;
+      margin-left: -4.5vw;
+      padding-left: 10vw;
+      border-left: 2px solid #5c79a3;
+      line-height: 1.2;
+  }
+  /* Setting location of contact section and providing way to contact */
+  
+  .contact h2 {
+      text-align: right;
+      font-size: 200%;
+      color: #5c79a3;
+  }
+  
+  .contact ul li {
+      display: inline-flex;
+      line-height: 1.2;
+      margin-left: 1vw;
+      padding-left: 2vw;
+      border-left: 2px solid #5c79a3;
+  }
+  
+  .resume h2 {
+      text-align: right;
+      font-size: 200%;
+      color: #5c79a3;
+  }
